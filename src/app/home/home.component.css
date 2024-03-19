@@ -1,0 +1,55 @@
+.home-comp-c {
+    background-color: black;
+    height: 100vh;
+    position: relative;
+}
+
+.home-comp-c .cont {
+    position: absolute;
+    color: aliceblue;
+    margin-left: 15%;
+    width: 30%;
+    margin-top: 15%;
+}
+
+.home-comp-c .cont .const1 {
+    font-size: 20px;
+}
+
+.home-comp-c .cont .const2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.home-comp-c .cont .const2 span {
+    color: gold;
+}
+
+.home-comp-c .cont .const3 {
+    font-size: 14px;
+}
+
+.home-comp-c .cont .const4 {
+    width: fit-content;
+    background-color: aliceblue;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.home-comp-c .cont-r {
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -5%;
+}
+
+.home-comp-c .cont-r .naing {
+    width: 800px;
+}
+
+p {
+    text-align: justify;
+}

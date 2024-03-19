@@ -1,0 +1,64 @@
+header {
+    background-color: black;
+    padding: 25px;
+    position: relative;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    color: aliceblue;
+    display: inline-block;
+    margin-left: 15px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -4px;
+}
+
+.header_change {
+    position: fixed;
+    background-color: rgb(4, 35, 107);
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.all-heading {
+    display: flex;
+    font-size: 60px;
+    color: Yellow
+}
+
+.About,
+.Portfolio {
+    background-color: rgb(72, 71, 71);
+}
+
+.home,
+.about,
+.service,
+.client,
+.contact {
+    color: Yellow;
+}

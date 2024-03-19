@@ -1,0 +1,20 @@
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="logo">
+          <img src="../assets/nlt-log-nobg.png" alt="logo">
+        </div>
+      </div>
+      <div class="col-md-6 text-right">
+        <ul>
+          <li routerLink="home" id="home" (click)="OnClick('home')" [class.home]="home">Home</li>
+          <li routerLink="about" id="about" (click)="OnClick('about')" [class.about]="about">About</li>
+          <li routerLink="service" id="service" (click)="OnClick('service')" [class.service]="service">Service</li>
+          <li routerLink="client" id="client" (click)="OnClick('client')" [class.client]="client">Client</li>
+          <li routerLink="contact" id="contact" (click)="OnClick('contact')" [class.contact]="contact">Contact Me</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
